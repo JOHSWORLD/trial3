@@ -1,0 +1,26 @@
+
+body{
+    margin: 25vh;
+}
+.card{
+    position: relative;
+    margin: 10px;
+    background-color: rgb(185, 109, 9);
+    
+}
+.front, .back{
+    position: absolute;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    
+
+}
+h2{
+    position: absolute;
+    z-index: 1;
+    right: 25%;
+}
